@@ -48,13 +48,13 @@ def main():
 
     print("-"*32)
 
-    middle_c_air = sw.SoundWave(speed_ms=sw.SPEED_AIR_MS, frequency_hz=sw.MIN_HUMAN_FREQUENCY)
-    print(middle_c_air)
+    min_human_air = sw.SoundWave(speed_ms=sw.SPEED_AIR_MS, frequency_hz=sw.MIN_HUMAN_FREQUENCY)
+    print(min_human_air)
 
     print("-"*32)
 
-    middle_c_air = sw.SoundWave(speed_ms=sw.SPEED_AIR_MS, frequency_hz=sw.MAX_HUMAN_FREQUENCY)
-    print(middle_c_air)
+    max_human_air = sw.SoundWave(speed_ms=sw.SPEED_AIR_MS, frequency_hz=sw.MAX_HUMAN_FREQUENCY)
+    print(max_human_air)
 
     print("-"*32)
 
